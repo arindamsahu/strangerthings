@@ -1,0 +1,64 @@
+.app {
+    margin: 2%;
+}
+.video, .list {
+    margin: 2%;
+}
+iframe {
+    background: url("/ajax-loader.gif") no-repeat center;
+   }
+.player {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+.player_iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.locations, .episodes {
+    margin-top: 1%;
+}
+.video__header {
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+.list__header {
+    font-weight: 200;
+    font-size: 2rem;
+}
+.description {
+    font-weight: 300;
+    margin-top: 2%;
+}
+.locations {
+    font-size: 1rem;
+    font-weight: 300;
+}
+.list {
+    border-left: 1px solid #cccccc;
+    padding-left: 5%;
+}
+.switch-wrapper {
+    display: inline-block;
+    margin-left: 1%;
+}
+.lang {
+    margin-top: 2%;
+}
+@media only screen and (max-width: 768px) {
+    .app {
+        margin: 5%;
+    }
+    .list {
+        border: 0px;
+        padding: 0px;
+    }
+    .locations {
+        display: none !important;
+    }
+  }
